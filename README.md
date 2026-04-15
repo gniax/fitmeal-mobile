@@ -1,46 +1,31 @@
-# FitMeal - Compteur de calories et planificateur de repas
+# FitMeal
 
-## A propos de nous
+Mobile app built with React Native and Expo for calorie tracking and meal planning.
 
-**Groupe :** E4FI Groupe 3
+## Features
 
-**Équipe :**
-- Julien SARRAU
-- Léo MESBAH
+- Set personal health goals
+- Estimate recommended daily calorie intake
+- Browse and select foods from a food database
+- Track calorie consumption
+- Plan meals based on daily targets
 
-## Contexte du projet
+## Tech stack
 
-FitMeal fait partie de nos projets d'études à l'ESIEE Paris. L'objectif est de découvrir et de développer une application mobile React Native et Expo.
+- React Native
+- Expo
+- JavaScript
 
-## Objectif du projet
+## Project structure
 
-L'objectif de FitMeal est de fournir un moyen simple et efficace pour les utilisateurs de gérer leurs objectifs de santé en leur permettant de suivre leur apport calorique et de planifier leurs repas en conséquence.
+- `src/` — application screens and logic
+- `assets/` — images and static assets
+- `documentation/` — project documentation
+- `demo_video/` — demo videos
 
-## Caractéristiques principales
+## Getting started
 
-1. **Objectifs de santé** : Les utilisateurs peuvent entrer leurs détails personnels et leurs objectifs de santé et recevoir une suggestion d'apport calorique quotidien basée sur ces objectifs.
-2. **Base de données alimentaires** : Les utilisateurs peuvent choisir parmi une base de données d'aliments pour suivre leur apport calorique.
-3. **Planification de repas** : Les utilisateurs peuvent planifier leurs repas en fonction de leur apport calorique recommandé.
+1. Install dependencies:
 
-## Installation
-
-1. Clonez ce dépôt GitHub.
-2. Installez [Node.js](https://nodejs.org/) et [Expo](https://expo.dev/).
-3. Ouvrez un terminal à l'emplacement du projet.
-4. Exécutez `npm install` pour installer les dépendances nécessaires.
-5. Exécutez `npx expo start` pour démarrer l'application.
-6. Téléchargez l'application [Expo Go](https://expo.dev/client) sur votre téléphone et scannez le code QR qui s'affiche dans votre terminal.
-
-## Documentation (Suivi de projet)
-
-Nous avons choisi d'effectuer le suivi de projet (documentaiton) en .md que nous convertirons en PDF en u'itlisant un outil de conversion. Cela sera plus simple pour co-travailler sur une documentation commune, inclure les screenshots etc..
-
-La documentation du projet se trouve dans le dossier "documentation" sous le nom "Documentation.pdf".
-
-## Vidéo de démonstration complète
-
-La vidéo de démonstration de l'application se trouve dans le dossier "demo_video". Le fichier est "demo_complete.mp4". Elle donne un aperçu de chaque module et utilisation de l'application.
-
-## Vidéo de publicité de l'application
-
-Etant pas sur du but de la video, nous avons également fait une vidéo de publicité de l'application qui se trouve également dans le dossier "demo_video". Il s'agit de la deuxième vidéo du dossier.
+```bash
+npm install

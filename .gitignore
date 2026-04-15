@@ -17,3 +17,25 @@ web-build/
 
 # Temporary files created by Metro to check the health of the file watcher
 .metro-health-check*
+
+# dependencies
+node_modules/
+
+# expo
+.expo/
+.expo-shared/
+web-build/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# macOS
+.DS_Store
+
+# local env files
+.env
+.env.*
+!.env.example
